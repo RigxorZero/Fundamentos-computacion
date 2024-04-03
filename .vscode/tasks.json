@@ -3,18 +3,16 @@
         {
             "type": "cppbuild",
             "label": "C/C++: gcc build active file",
-            "command": "/usr/bin/gcc",
+            "command": "/usr/bin/g++",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "-I${workspaceFolder}/LaboratorioDos/glad",
                 "${workspaceFolder}/*.cpp",
                 "${workspaceFolder}/LaboratorioDos/glad/*.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
                 "-lGL",
-                "-lglfw",
-                "-ldl"
+                "-lglfw"
             ],
             "options": {
                 "cwd": "${fileDirname}"
