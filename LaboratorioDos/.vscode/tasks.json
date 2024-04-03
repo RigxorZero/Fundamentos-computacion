@@ -7,9 +7,8 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "-I${workspaceFolder}/LaboratorioDos/glad",
                 "${workspaceFolder}/*.cpp",
-                "${workspaceFolder}/LaboratorioDos/glad/*.c",
+                "${workspaceFolder}/glad/*.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
                 "-lGL",
